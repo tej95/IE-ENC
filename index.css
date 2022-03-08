@@ -1,0 +1,13 @@
+body {
+  background-image: url("background.jpeg");
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 14pt;
+}
+.bg {
+  margin: 7px;
+  background-color: #fce9c9;
+}
+#movies {
+  margin: 7px;
+}

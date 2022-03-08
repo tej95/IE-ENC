@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <h1>Employee Intrests Survey Form</h1>
+    <form action="">
+      <div>
+        <label for="name">Enter Your Name:</label>
+        <input type="text" id="name" class="bg" />
+      </div>
+
+      <div>
+        <label for="dept">Enter Your Department:</label>
+        <input type="text" id="dept" class="bg" />
+      </div>
+      <div>
+        <label for="desc">Tell us a little about yourself:</label>
+        <input
+          type="text"
+          id="desc"
+          style="font-size: 18pt; height: 80px; width: 280px"
+          class="bg"
+        />
+      </div>
+
+      <span>
+        <span>Do you exercise at home?</span>
+
+        <input type="radio" id="yes" value="yes" />
+        <label for="yes">Yes</label>
+        <input type="radio" id="no" value="no" />
+        <label for="yes">No</label>
+      </span>
+
+      <div>
+        <p>How do you like to read about your favourite topic?</p>
+
+        <span>
+          <input type="checkbox" id="books" value="books" />
+          <label for="books">Books</label>
+          <input type="checkbox" id="res" value="res" />
+          <label for="online-resources">Online resources</label>
+          <input type="checkbox" id="phone-apps" value="phone-apps" />
+          <label for="phone-apps">Phone Apps</label>
+          <input type="checkbox" id="magazines" value="magazines" />
+          <label for="magazines">Magazines</label>
+        </span>
+      </div>
+
+      <label for="movies" id="movies">What genre of movies do you like?</label>
+      <select name="movies" id="movies">
+        <option value="comdey">Comedy</option>
+        <option value="thriller">Thriller</option>
+        <option value="romance">Romance</option>
+        <option value="fantasy">Fantasy</option>
+      </select>
+
+      <div>
+        <input type="submit" value="Submit Form" />
+      </div>
+    </form>
+  </body>
+</html>
